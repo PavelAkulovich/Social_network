@@ -1,10 +1,10 @@
 import s from'./Content.module.css'
 import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Content = () => {
     return <div>
-        <img src="https://klike.net/uploads/posts/2019-05/1556708032_1.jpg" alt="123" />
-        <div>Ava</div>
+        <ProfileInfo/>
         <MyPosts />
     </div>
 }
